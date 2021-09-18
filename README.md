@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 The app allows you to enter a French city and get details about it
 
 ## Setup
-You will need to add an `environment.ts` file in src/environment.ts.
+You will need to add `src/environments/environment.ts`.
 
 Please contact `conqstephane@gmail.com` for the environment file.
 
