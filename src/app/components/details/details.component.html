@@ -1,0 +1,37 @@
+<div class="container">
+
+  <div class="loader" *ngIf="!city"></div>
+
+  <div class="close-button">
+    <button (click)="close()">
+      X
+    </button>
+  </div>
+
+  <div *ngIf="city">
+
+    <h1>{{city?.nom}}</h1>
+
+    <p>
+      <b>Code:</b><span>{{city?.code}}</span>
+    </p>
+
+    <p>
+      <b>Department code:</b><span>{{city?.codeDepartement}}</span>
+    </p>
+
+    <p>
+      <b>Region code:</b><span>{{city?.codeRegion}}</span>
+    </p>
+
+    <p>
+      <b>Postal codes:</b><span>{{city?.codesPostaux?.join(', ')}}</span>
+    </p>
+
+    <p>
+      <b>Population:</b><span>{{city?.population}}</span>
+    </p>
+
+  </div>
+
+</div>

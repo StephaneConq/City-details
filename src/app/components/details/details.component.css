@@ -1,0 +1,25 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: auto;
+    width: 80%;
+  }
+}
+
+.close-button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+b {
+  margin-right: 5px;
+}

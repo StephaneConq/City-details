@@ -1,0 +1,22 @@
+.searchbar-container {
+  position: absolute;
+  width: 100vw;
+  height: 64px;
+  right: 0;
+  top: 0;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .searchbar-container.details-opened {
+    width: 60vw;
+  }
+}
+
+input {
+  width: 75%;
+  height: 50%;
+}
