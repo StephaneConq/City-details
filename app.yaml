@@ -15,4 +15,4 @@ handlers:
     redirect_http_response_code: 301
     static_files: dist/test-interflora/index.html
     upload: dist/test-interflora/index\.html
-  ©
+
